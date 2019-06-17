@@ -1,0 +1,50 @@
+.list {
+	margin-top: 40px;
+
+	.list__header {
+		display: flex;
+		align-items: center;
+    background: #faebd7;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    padding: 10px 40px;
+
+		.list__column--title {
+			width: 80%;
+		}
+
+		.list__column--year {
+			width: 20%;
+		}
+	}
+
+	.list__body {
+
+    .list__row {
+    	display: flex;
+			align-items: center;
+			padding: 10px 40px;
+
+			&:nth-child(even) {
+				background: #757272;
+			}
+
+			&:nth-child(odd) {
+				background: #d3d3d3;
+			}
+    	
+	    .list__title {
+	    	width: 80%;
+	    	font-size: 18px;
+	    	font-weight: 600;
+	    }
+
+	    .list__year {
+	    	width: 20%;
+	    	font-size: 16px;
+	    }
+    }
+
+	}
+}

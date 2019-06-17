@@ -1,0 +1,24 @@
+.card {
+	margin: 20px;
+
+	.card__poster {
+		height: 300px;
+	}
+
+	.card__details {
+		background: #ffe4c4;
+		padding: 10px;
+		
+		.card__title {
+			font-size: 16px;
+			white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    margin-bottom: 6px;
+		}
+
+		.card__year {
+			font-size: 14px;
+		}
+	}
+}

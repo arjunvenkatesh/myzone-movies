@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	align-items: center;
+	background-color: #5c5c5c;
+	padding: 10px 40px;
+
+	.header__title {
+		font-size: 24px;
+		font-weight: 600;
+		color: #f5f5dc;
+	}
+
+	.header__nav {
+		margin-left: auto;
+
+		.header__links {
+			display: flex;
+			align-items: center;
+			list-style: none;
+
+			a {
+				color: white;
+				text-decoration: none;
+				font-weight: 600;
+
+
+				&.active {
+					color: #ff8c00;
+				}
+			}
+			li {
+				margin-right: 20px;	
+			}
+		}
+	}
+}
